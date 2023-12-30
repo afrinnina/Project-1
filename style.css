@@ -1,0 +1,160 @@
+.body{
+    
+    margin: 0%;
+    padding: 0%;
+    background: url(26114375_135302010499932_4845704259738606400_o.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: sans-serif;
+}
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: #00000071;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: 40px;
+    background: #035d6d;
+    color #fff;
+    font-size:18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background:  #ffc107;
+    color: #000000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(21, 207, 207);
+}
+.loginbox a:hover
+{
+    color: #ffc107;
+}
+
+
+.page
+{width: auto;
+height: auto;
+//border-style: groove;
+}
+.headpart
+{
+    width: auto;
+    height: 110px;
+    border-style: groove;
+    background-color: #056953c0;
+    background-image: url(ruet.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.linkspart
+{ font-size: 22px;
+    width:auto;
+    height: 40px;
+    margin-top: 0px;
+
+    text-align: center;
+   
+   background-color:  #056953c0;
+ border-style: groove;
+}
+.linkspart a
+{ 
+    
+    color: rgb(180, 207, 205);
+    text-decoration: none;
+}
+.linkspart a:hover
+{
+
+    color: #032b22;
+    text-decoration: none;
+
+}
+ .bodypart
+ {
+     width:auto;
+     height: 600;
+   //  border-style: groove;
+     margin-top:5px;
+ }
+ .bodypart .imagepart
+ {
+     width: auto;
+     height: 300px;
+   // border-style: groove;
+    background-image: url(pp.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+   // display: inline-block;
+ }
+.bodypart .newspart h2
+{
+   color: rgb(4, 114, 108);
+   margin-left:12px; 
+
+}
+.bodypart .newspart
+{
+    width: 220px;
+    height: 580px;
+   border-style: groove;
+    float: right;
+    text-align: center;
+}
+.bodypart .newspart .news
+{
+    text-align: center;
+    width: 215px;
+    text-size-adjust: auto;
+    height: 490px;
+//border-style: groove;
+}
+.bodypart h3
+{
+    color: rgb(4, 114, 108);
+}
+.bodypart h4
+{
+    color: rgb(4, 114, 108);
+}
