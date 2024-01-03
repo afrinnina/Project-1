@@ -50,7 +50,7 @@ h1{
     height: 40px;
     background: 40px;
     background: #035d6d;
-    color #fff;
+    color: #ffffff;
     font-size:18px;
     border-radius: 20px;
 }
@@ -75,7 +75,7 @@ h1{
 .page
 {width: auto;
 height: auto;
-//border-style: groove;
+border-style: groove;
 }
 .headpart
 {
@@ -115,18 +115,17 @@ height: auto;
  {
      width:auto;
      height: 600;
-   //  border-style: groove;
+   border-style: groove;
      margin-top:5px;
  }
- .bodypart .imagepart
+ 
+ .imageee
  {
-     width: auto;
-     height: 300px;
-   // border-style: groove;
-    background-image: url(pp.jpg);
+    width: 900px;
+    height: 300px;
     background-repeat: no-repeat;
-    background-position: center;
-   // display: inline-block;
+    image-rendering: none;
+
  }
 .bodypart .newspart h2
 {
@@ -148,7 +147,7 @@ height: auto;
     width: 215px;
     text-size-adjust: auto;
     height: 490px;
-//border-style: groove;
+border-style: groove;
 }
 .bodypart h3
 {
